@@ -1,0 +1,132 @@
+
+/* optional CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+
+
+/* ================
+
+    GLOBAL STYLE
+
+================ */
+
+html {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(45deg, #134c5c, #2193b0, #6dd5ed);
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#Character {
+    height: 0px;
+    width: 0px;
+}
+
+img {
+    height: 260px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button {
+    height: 70px;
+    width: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    margin: .75%;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: rgb(250, 250, 181);
+    box-shadow: 0 7px rgb(81, 90, 2);
+}
+
+button:hover {background-color: rgb(180, 180, 85);}
+
+button:active {
+    background:  rgb(180, 180, 85);
+    box-shadow: 0 5px rgb(81, 90, 2);
+    transform: translateY(3px);
+}
+
+#restart {
+    font-size: 20px;
+    box-shadow: 0 5px rgb(29, 112, 29);
+}
+
+.buttonrestart {
+    height: 50px;
+    width: 130px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+.buttonrestart:hover {background-color: limegreen;}
+.buttonrestart:active {box-shadow: 0 5px rgb(30, 122, 30);}
+
+
+
